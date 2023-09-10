@@ -12,6 +12,28 @@ img {
   font-weight: 900;
 }
 
+.itemList {
+  display: flex;
+  justify-content: space-around;
+}
+
+.itemList card {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+
+}
+
+.text {
+  width: 12em;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
